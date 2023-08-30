@@ -1,0 +1,72 @@
+body {
+  /* font-family: Georgia, serif; */
+  font-family: Garamond, serif;
+  background-color: rgb(48, 52, 63); /*gunmetal color*/
+  background-color: rgb(30, 30, 46); /*plum*/
+  
+  color: rgb(137, 2, 62); /*murrey*/
+  color: rgb(27, 32, 33); /*eerie_black*/
+  color: rgb(234, 99, 140); /*blush*/
+  color: rgb(203, 166, 247);
+}
+
+a {
+  color: rgb(235, 188, 186);
+}
+
+a:visited {
+  color: rgb(49, 117, 143);
+}
+
+.tab a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab{
+  text-align: right;
+  padding-right: 10px;
+  color: rgb(234, 99, 140); /*blush*/
+  color: rgb(203, 166, 247);
+
+  transition: all 0.4s;
+}
+
+.tab:hover {
+  /* color: rgb(205, 214, 244); lavender */
+  color: rgb(172, 109, 247);
+  cursor: pointer;
+  background-color: rgb(24, 24, 37);
+
+  transition: all 0.4s;
+}
+
+#description {
+  /* color: rgb(249, 235, 224); linen */
+  padding-left: 10px;
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+}
+
+#left-pane {
+  /* background-color: azure; */
+  width: 25%;
+  height: auto;
+  float: left;
+}
+#middle-pane {
+  /* background-color: antiquewhite; */
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+#right-pane {
+  /* background-color:navajowhite; */
+  width: 25%;
+  height: auto;
+  float: left;
+}
