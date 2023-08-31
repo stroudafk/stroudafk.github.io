@@ -3,6 +3,8 @@ body {
   font-family: Garamond, serif;
   background-color: rgb(30, 30, 46); /*plum*/
   color: rgb(203, 166, 247);
+  height: 100%;
+  min-height: 100%;
 }
 
 a {
@@ -47,29 +49,60 @@ a:visited {
   width: 25%;
   height: auto;
   float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 0px;
 }
 #middle-pane {
   width: 50%;
-  height: auto;
   float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 0px;
 }
 
 #right-pane {
   width: 25%;
   height: auto;
   float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+#footer {
+  background-color: rgb(24, 24, 37);
+  /* float: left; */
+  width: 100%;
+  height: auto;
+
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 #logos {
   display: flex;
   width: 100%;
-  padding-top: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   justify-content: center;
   align-items: center;
 }
-#logos a{
+#logos a {
   text-decoration: none;
   justify-content: center;
+}
+
+#logos img {
+  width: 75px;
+  height: 75px;
+  bottom: 0px;
+}
+
+#logos img:hover {
+  transition: 0.35s;
+  filter: saturate(3);
 }
 
 .year-link {
@@ -97,8 +130,10 @@ a:visited {
 
 .resume-entry {
   color: rgb(24, 24, 37);
-  background-color: aliceblue;
-  background-color: rgb(24, 24, 37);
   background-color: rgb(225, 225, 241);
+  
   border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-top: 0px;
 }
