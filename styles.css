@@ -37,8 +37,9 @@ a:visited {
 }
 
 #description {
-  padding-left: 10px;
-  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: left;
 }
 
 #header {
@@ -59,6 +60,7 @@ a:visited {
   box-sizing: border-box;
   padding: 10px;
   padding-top: 0px;
+  text-justify: left;
 }
 
 #right-pane {
@@ -136,4 +138,8 @@ a:visited {
   box-sizing: border-box;
   padding: 10px;
   padding-top: 0px;
+}
+
+#condensed-resume {
+  text-align: center;
 }
